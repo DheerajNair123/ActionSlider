@@ -17,7 +17,7 @@ cooldown = 1.0  ##bahot fast ho rha tha isilye cooldown rakha hai
 while cap.isOpened():
     success, frame = cap.read()
     if not success:
-        print("Ignoring empty frame.")
+        print("Either Camera Device is not found or Used by another application..")
         continue
 
     # Flip the frame for a selfie view(apna right computer ka tight hone ke liye)
