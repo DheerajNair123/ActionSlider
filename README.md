@@ -1,10 +1,6 @@
-Here's a clean, professional **README.md** for your GitHub repository:
-
-```markdown
+```markdown```
 # Action Slider :raised_hand:  
 *A Gesture-Controlled Presentation Tool*  
-
-![Action Slider Demo](demo-gif-placeholder.gif) *Replace with your demo GIF/video*
 
 Control PowerPoint/Google Slides with hand gestures – wave **left** or **right** to navigate slides seamlessly.  
 
@@ -17,8 +13,8 @@ Control PowerPoint/Google Slides with hand gestures – wave **left** or **right
 ## :wrench: Installation  
 1. **Clone the repository**:  
    ```bash  
-   git clone https://github.com/yourusername/action-slider.git  
-   cd action-slider  
+   git clone (https://github.com/DheerajNair123/ActionSlider.git)
+   cd ActionSlider  
    ```  
 
 2. **Install dependencies**:  
@@ -26,9 +22,6 @@ Control PowerPoint/Google Slides with hand gestures – wave **left** or **right
    pip install -r requirements.txt  
    ```  
    *Dependencies include OpenCV, PyAutoGUI, and MediaPipe.*  
-
-3. **Calibrate your camera**:  [if needed only,dont make unnecessary changes]
-   Run `calibrate.py` to ensure your gestures are detected properly.  
 
 ## :rocket: Usage  
 1. **Start the application**:  
@@ -48,13 +41,7 @@ Control PowerPoint/Google Slides with hand gestures – wave **left** or **right
 ## :bulb: How It Works  
 - Uses **OpenCV** for real-time camera input.  
 - **MediaPipe** for hand landmark detection.  
-- **PyAutoGUI** to simulate keyboard inputs (Left/Right arrow keys).  
-
-## :gear: Configuration  
-Modify `config.yaml` to:  
-- Adjust gesture recognition thresholds  
-- Change camera index  
-- Customize slide transition delays  
+- **PyAutoGUI** to simulate keyboard inputs (Left/Right arrow keys).   
 
 ## :heart: Contributing  
 PRs and issues are welcome!  
@@ -68,7 +55,7 @@ PRs and issues are welcome!
 Distributed under MIT License. See `LICENSE` for details.  
 
 ## :mailbox: Contact  
-Dheeraj Nair - dheerajnairp@gmail.com  
+Dheeraj Nair - [dheerajnairp@gmail.com]  
 
 ---  
 **Made with Python and ❤️**  
